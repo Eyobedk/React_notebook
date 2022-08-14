@@ -41,7 +41,7 @@ class AddNotes extends Component {
                 id="contexts"
                 value={contexts}
                 onChange={this.handleChange} />
-                <input type="button" value="Submit" onClick={ this.submitForm } />
+                <input type="button" value="Add" onClick={ this.submitForm } />
           </form>
           </center>
         )
